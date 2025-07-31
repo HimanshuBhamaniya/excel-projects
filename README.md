@@ -79,10 +79,6 @@ Each output table includes:
 - Missing entries were handled conservatively to maintain analytical transparency
 - Further clarification from domain experts may improve imputation logic
 
-## 👨‍💻 Author
-
-Created by **Himanshu Bhamaniya** — committed to improving real-world data workflows through structured analysis and intuitive cleanup strategies.
-
 ---
 
 > This project sets the groundwork for deeper insights into retail trends and can be enhanced with visualization tools like Power BI.
