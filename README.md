@@ -13,21 +13,6 @@ The goal of this repository is to:
 - Maintain a clear structure for multiple projects
 - Provide easy navigation and reference for future work
 
-## Structure
-excel-projects/
-│
-├── excel_project_1/
-│   ├── images/
-│   ├── retail.xlsx
-│   └── README.md
-│
-├── excel_project_2/
-│   ├── images/
-│   ├── finance.xlsx
-│   └── README.md
-│
-└── ...
-
 
 ## How to Use
 - Navigate to the project folder you’re interested in.
