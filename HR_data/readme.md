@@ -52,7 +52,7 @@ The dashboard includes:
 - **Distribution Analysis** – Breakdown of employees across age, departments, and other categories  
 - **Performance Analysis** – Evaluation of employee performance scores and trends  
 
-👉 You can view the dashboard here: [View HR Dashboard]([https://your-dashboard-link.com](https://github.com/HimanshuBhamaniya/powerbi_projects/tree/main/HR_Dashboard))
+👉 You can view the dashboard here: [View HR Dashboard](https://github.com/HimanshuBhamaniya/powerbi_projects/tree/main/HR_Dashboard)
 
 ---
 
