@@ -1,7 +1,7 @@
 # Data Cleaning Summary – Messy HR Dataset
 
 ## Dataset Overview
-- **Fields (10):** Name, Age, Salary, Gender, Department, Position, Joining Date, Performance, Email, Phone Number  
+- **Fields (11):** EmployeeID, Name, Age, Salary, Gender, Department, Position, Joining Date, Performance, Email, Phone Number  
 - **Objective:** Clean and prepare HR data for reliable analysis by fixing inconsistent formats, missing values, and invalid entries.
 
 ---
@@ -12,7 +12,7 @@
 - **Joining Date:** Multiple inconsistent formats (e.g., `April 5, 2018`, `01/01/2000`, `01-01-2000`, `2000.12.01`).  
 - **Email, Age, Salary, Phone Number:** Included missing values, `nan`, and `NAN`.  
 - **Gender, Department, Position:** Clean — no missing values, case issues, or invalid entries.  
-- **Duplicates:** None found.
+- **Duplicates:** None found. 
 
 ---
 
@@ -33,12 +33,26 @@
 5. **Salary Field**
    - Left blanks for missing values to prevent interference with calculations.
 
+6. **EmployeeID:**
+   - Created EmployeeID by appending continous 3 digit number after "E" and then appending
+     first 2 character from Department and last 2 digit from JoiningDate Year.
 ---
 
 ## Notes
 - No duplicate records were present.  
 - All replacements and transformations were documented and applied consistently.  
 - The dataset is now standardized and ready for analysis.
+
+## 📊 Power BI Dashboard
+
+After cleaning the HR dataset, I created an interactive **Power BI dashboard** to visualize key insights.  
+The dashboard includes:
+
+- **Executive Overview** – High-level summary of workforce metrics  
+- **Distribution Analysis** – Breakdown of employees across age, departments, and other categories  
+- **Performance Analysis** – Evaluation of employee performance scores and trends  
+
+👉 You can view the dashboard here: [View HR Dashboard](https://your-dashboard-link.com)
 
 ---
 
